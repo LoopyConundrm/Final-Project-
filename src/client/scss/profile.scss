@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-prof {
+    background-image: url("https://i.imgur.com/n8hAGf5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -5rem;
+    
+}
+
+.prof {
+    box-shadow: -20px 20px 60px #ddc6a4;
+}
+
+.card {
+    height: 100%;
+    margin-top: 25px;
+    border-radius: 5rem;
+}
+
+.card {
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    color: rgb(0, 0, 0);
+    width: 350px;
+    background-image: url("https://i.imgur.com/n8hAGf5.png");
+    border: none
+}
+
+.num {
+    color: rgb(0, 0, 0) !important;
+}
+
+.name {
+    background-color: #fcdfab;
+    border-radius: 5px;
+}
+
+.change {
+    text-align:left
+}
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";

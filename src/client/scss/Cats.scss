@@ -1,0 +1,111 @@
+.top-container {
+  background-color: rgb(255, 255, 255)!important;
+  height: 80rem;
+}
+
+.bg-img {
+  background-image: url("https://i.imgur.com/Qow7bWL.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+  
+}
+
+.cat-top-button {
+  
+  border: none;
+  color: white;
+  font-size: 20pt;
+}
+.cat-top-button:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.first-btn{
+  background-color: #FEAD12 !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+.first-btn:hover{
+  transition: 0.3s ease-in-out;
+  background-color: black !important;
+  font-weight: 600 !important;
+}
+.second-btn{
+  background-color: none !important;
+  border: 0.1rem solid #FEAD12 !important;
+  font-weight: 600 !important;
+}
+.second-btn:hover{
+  background-color: #FEAD12 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border: none !important;
+}
+.cat-lower-title {
+  text-align: center;
+}
+.cat-pic{
+    height:20rem !important;
+    width:auto !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+.cat-img {
+  height: 30rem !important;
+  width: auto !important;
+}
+.lower-img {
+  margin: auto !important;
+}
+.house-img {
+  height: 10rem;
+}
+.badge-img {
+  height: 10rem;
+}
+.girl-img {
+  height: 10rem;
+}
+.bottom-container {
+  background-color: #fae4bb;
+}
+
+.box{
+  box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.card-body {
+  text-align: center;
+  background-color: white;
+  width: 36rem;
+  height: 30rem !important;
+}
+.cat-favorite-btn {
+  padding: 1rem;
+  background-color:#FEAD12 !important;
+  border:none !important;
+}
+.cat-favorite-btn:hover {
+  color: black !important;
+}
+.title {
+  font-size: 4rem;
+}
+.btn-view-cat {
+  background-color: none;
+  border: 0.1rem solid #fead12;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fead12;
+  width: 18rem;
+}
+.btn-view-cat:hover {
+  transition: 0.3s ease-in-out;
+  background-color: black;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fead12;
+}

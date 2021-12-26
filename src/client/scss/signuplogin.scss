@@ -1,0 +1,103 @@
+.signup-modal-img {
+  background-image: url("https://i.imgur.com/1Ax7UOo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.signup-email-input,
+.signup-username-input,
+.signup-password-input {
+  border: 0.1rem solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.signup-username-label,
+.signup-password-label,
+.signup-email-label {
+  font-weight: 700;
+}
+
+.signup-modal-btn {
+  background-color: #fead12 !important;
+  padding: 0.5rem 2rem !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.login-modal-img {
+  background-image: url("https://i.imgur.com/atwTTTP.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.login-username-label,
+.login-password-label {
+  font-weight: 700;
+}
+
+.login-modal-btn {
+  background-color: #fead12 !important;
+  padding: 0.5rem 2rem !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.profile-img {
+  height: 2rem !important;
+}
+
+.profile-btn {
+  background-color: black !important;
+  padding: 0.5rem 2rem !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.profile-btn-link {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.logout-btn {
+  background-color: #fead12 !important;
+  padding: 0.5rem 2rem !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.logout-link {
+  text-decoration: none;
+  color: white;
+}
+
+.logout-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.invalid-login-hide {
+  color: red;
+  display: none !important;
+}
+
+.invalid-login {
+  color: red;
+  display: block !important;
+  margin-bottom: 2rem !important;
+}
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
